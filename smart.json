@@ -3,9 +3,9 @@
   "description": "Bootstrap components written in pure AngularJS. (http://angular-ui.github.io/bootstrap/)",
   "homepage": "https://github.com/ccll/meteor-angular-bootstrap",
   "author": "ccll_cailei <cailei@live.com> (https://github.com/ccll)",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "git": "https://github.com/ccll/meteor-angular-bootstrap.git",
   "packages": {
-      "ngMeteor": "0.1.0"
+      "ngMeteor": {}
   }
 }
