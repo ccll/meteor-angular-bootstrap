@@ -3,10 +3,13 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-    api.use('ngMeteor', 'client');
+    api.use('bower', 'client');
 
-    // angular-bootstrap files.
-    api.add_files('lib/ui-bootstrap-tpls-0.10.0.js', 'client');
+    api.use('ngMeteor', 'client', {weak: true});
+
+    // Install bower components.
+    api.add_files('smart.json', 'client');
+    api.add_files('bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js', 'client');
 
     // Client files.
     api.add_files('init.js', 'client');
